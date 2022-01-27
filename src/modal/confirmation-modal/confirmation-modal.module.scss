@@ -1,0 +1,29 @@
+.wrapper {
+	width: 80%;
+	@media (min-width: 768px) {
+		width: 60%;
+	}
+	@media (min-width: 1024px) {
+		width: 40%;
+	}
+}
+
+.confirmationButtons {
+	display: flex;
+	justify-content: center;
+}
+
+.message {
+	font-size: 0.9rem;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.yesButton {
+	width: 6rem;
+}
+
+.noButton {
+	width: 3rem;
+	margin-left: 10px;
+}
